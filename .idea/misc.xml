@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ripple_approve.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/drawable/ripple_decline.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/drawable/ripple_effect.xml" value="0.3182291666666667" />
+        <entry key="app/src/main/res/drawable/ripple_short_edges.xml" value="0.3182291666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/layout/activity_review_payments.xml" value="0.28802083333333334" />
+        <entry key="app/src/main/res/layout/add_competition_fragment.xml" value="0.2875" />
+        <entry key="app/src/main/res/layout/add_stall_fragment.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/layout/payment_request_card.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/layout/payment_varification_fragment.xml" value="0.2875" />
+        <entry key="app/src/main/res/layout/stalls_card.xml" value="0.2875" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
