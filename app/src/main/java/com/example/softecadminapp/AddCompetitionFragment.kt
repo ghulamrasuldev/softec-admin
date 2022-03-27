@@ -40,7 +40,6 @@ class AddCompetitionFragment: BottomSheetDialogFragment() {
         var requests= ArrayList<StallsData>()
 
         db.collection("stallBids")
-            .whereEqualTo("paymentConfirmation", false)
             .get()
             .addOnSuccessListener { documents ->
                 for (document in documents){
@@ -62,7 +61,7 @@ class AddCompetitionFragment: BottomSheetDialogFragment() {
                 val requestsRecyclerView = stalls_recycler_view
                 requestsRecyclerView.adapter= StallsRecycllerView(requests)
                 requestsRecyclerView.layoutManager =  LinearLayoutManager(context)
-                progressBar.isVisible = false
+                progressBar_stalls.isVisible = false
             }
     }
 }
