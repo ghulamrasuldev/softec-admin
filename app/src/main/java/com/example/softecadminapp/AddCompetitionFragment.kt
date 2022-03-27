@@ -47,11 +47,11 @@ class AddCompetitionFragment: BottomSheetDialogFragment() {
                     requests.add(
                         StallsData(
                             document.data["bidTitle"].toString(),
-                            document.data["bidders"].toString().toInt(),
+                            document.data["bidders"].toString().toDouble(),
                             document.data["description_1"].toString(),
                             document.data["description_4"].toString(),
-                            document.data["maxBid"].toString().toInt(),
-                            document.data["minBid"].toString().toInt()
+                            document.data["maxBid"].toString().toDouble(),
+                            document.data["minBid"].toString().toDouble()
                         )
                     )
                     Log.d("Added Document: ", "True")
